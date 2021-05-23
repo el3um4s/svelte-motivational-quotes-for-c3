@@ -1,0 +1,2 @@
+- [Build a browser extension with Svelte](https://dev.to/khangnd/build-a-browser-extension-with-svelte-3135)
+- [svelte-moveable](https://www.npmjs.com/package/svelte-moveable)
