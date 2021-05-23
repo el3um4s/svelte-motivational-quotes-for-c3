@@ -1,3 +1,9 @@
+<script>
+    let linkGithub = "https://github.com/el3um4s/svelte-motivational-quotes-for-c3";
+    let linkPatreon = "https://patreon.com/el3um4s";
+    let linkPaypal = "https://www.paypal.me/el3um4s";
+</script>
+
 <div class="popup">
     <div class="item title center">
         <h3>Motivational Quotes</h3>
@@ -8,8 +14,8 @@
     <hr>
     <div class="item info">
         <p>This Chrome extension is a test project. I wanted to try and create something with <a href="https://svelte.dev/" target="_blank">Svelte</a> and <a href="https://www.construct.net" target="_blank">Construct 3</a>.</p>
-        <p>I uploaded the source code to <a href="https://github.com/el3um4s/construct-demo" target="_blank">GitHub</a>.</p>
-        <p>If you like you can support my experiments with <a href="https://patreon.com/el3um4s" target="_blank">Patreon</a> or <a href="https://www.paypal.me/el3um4s" target="_blank">Paypal</a>.</p>
+        <p>I uploaded the source code to <a href="{linkGithub}" target="_blank">GitHub</a>.</p>
+        <p>If you like you can support my experiments with <a href="{linkPatreon}" target="_blank">Patreon</a> or <a href="{linkPaypal}" target="_blank">Paypal</a>.</p>
     </div>
 </div>
 

@@ -80,18 +80,6 @@ export default [
 		}
 	},
 	{
-		input: "src/background.js",
-		output: {
-			sourcemap: true,
-			format: "iife",
-			file: "public/background.js"
-		},
-		plugins: [resolve(), commonjs()],
-		watch: {
-			clearScreen: false
-		}
-	},
-	{
 		input: "src/motivational.js",
 		output: {
 			sourcemap: true,

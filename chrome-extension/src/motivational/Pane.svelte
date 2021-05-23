@@ -9,7 +9,6 @@
     let target;
 
     function onClose() { isVisible = false; }
-    // function onNewQuote() { console.log("new quote")};
 </script>
 
 

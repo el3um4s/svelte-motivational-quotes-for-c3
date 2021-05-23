@@ -4,7 +4,8 @@
 
     import Pane from "./Pane.svelte";
 
-    let url = "https://raw.githubusercontent.com/el3um4s/construct-plugins-and-addons/master/motivational-quotes/helpers/motivational-quotes.json"
+    let url = "https://raw.githubusercontent.com/el3um4s/svelte-motivational-quotes-for-c3/main/motivational-quotes/default.json";
+    
     let id = "motivational-quote";
     let title = "Motivational Quote";
     let quote = null;
