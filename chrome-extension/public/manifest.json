@@ -1,12 +1,8 @@
 {
     "name": "Motivational Quotes",
-    "description": "Get and create motivational quotes",
-    "version": "0.1.0",
+    "description": "Shows a motivational quote when you launch Construct 3.",
+    "version": "0.1.1",
     "manifest_version": 3,
-    "permissions": [
-        "activeTab",
-        "scripting"
-    ],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -31,9 +27,5 @@
           "js": ["/build/motivational.js"],
           "run_at": "document_end"
         }
-      ],
-    "content_security_policy": {
-        "script-src": "self unsafe-eval",
-        "object-src": "self"
-    }
+      ]
 }
